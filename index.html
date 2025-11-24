@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>miniprojecte-3</title>
     <link rel="stylesheet" href="styles.css" />
-    <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,34 +15,69 @@
   <body>
     <header>
       <div class="flex between color_header">
-        <div class="flex">
-          <nav>
-            <ul class="menu color_header_font">
+        <div class="tamaño_nav_header">
+          <nav class="flex between">
+            <ul class="menu color_header_font logos_header_left">
               <li>We are leading consulting firm</li>
               <img
                 class="tamaño_logo_header"
                 src="images/USA FLAG.png"
                 alt="USA FLAG"
               />
+              <label for="">Language</label>
+              <select class="button_header" name="" id="">
+                <option value="">Spanish</option>
+                <option value="">Russian</option>
+                <option value="">English</option>
+                <option value="">Catalan</option>
+              </select>
             </ul>
-            <img src="" alt="">
+            <div class="logos_header">
+              <img
+                class="tamaño_logo_header"
+                src="images/facebook-app-round-icon.webp"
+                alt="facebook-app-round-icon"
+              />
+              <img
+                class="tamaño_logo_header_linkedin"
+                src="images/LinkedIn-Icon-Logo.wine.svg"
+                alt="LinkedIn-Icon-Logo"
+              />
+              <img
+                class="tamaño_logo_header"
+                src="images/Pinterest.svg.png"
+                alt="Pinterest"
+              />
+              <img
+                class="tamaño_logo_header"
+                src="images/X_icon.svg.png"
+                alt="X_icon"
+              />
+            </div>
           </nav>
         </div>
       </div>
-      <div class="container flex between">
-        <div class="flex items-center">
-          <img src="images/logo.png" alt="logo" />
-          <nav>
-            <ul class="menu">
+      <div class="tamaño_nav_header">
+        <nav class="menu flex between">
+          <div class="logos_header_left">
+            <img src="images/logo.png" alt="logo" />
+          </div>
+          <div>
+            <ul class="menu logos_header">
               <li>Home</li>
+              <li>/</li>
               <li>Pages</li>
+              <li>/</li>
               <li>Solutions</li>
+              <li>/</li>
               <li>Case Studies</li>
+              <li>/</li>
               <li>Shop</li>
+              <li>/</li>
               <li>Contact</li>
             </ul>
-          </nav>
-        </div>
+          </div>
+        </nav>
       </div>
     </header>
     <main>
