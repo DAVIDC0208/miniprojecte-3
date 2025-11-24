@@ -1,10 +1,10 @@
 header {
   text-decoration: none;
-  background-color: rgb(223, 212, 212);
+  background-color: rgb(241, 228, 228);
 }
 body {
   font-family: "Lexend Deca", sans-serif;
-  background-color: rgb(1, 1, 78);
+  background-color: rgb(2, 2, 95);
   color: black;
 }
 .container {
@@ -18,26 +18,33 @@ body {
 .between {
   justify-content: space-between;
 }
-.items-center {
-  align-items: center;
-}
 .menu {
   display: flex;
   gap: 30px;
+  justify-content: space-around;
+  flex: 1;
+  padding: 5px;
 }
 .menu li {
+  flex-grow: 1;
   list-style: none;
+  text-align: center;
 }
 .menu a {
   text-decoration: none;
   color: #6b72b0;
 }
 #hello {
-  background-color: rgb(231, 216, 216);
-  display: flex;
-  justify-content: center;
   background-image: url(images/slide-2.jpg);
   background-size: cover;
+  background-position: center;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 168px;
+  color: rgb(7, 5, 117);
+  font-size: xx-large;
 }
 div {
   box-sizing: border-box;
@@ -47,8 +54,53 @@ div {
   height: 500px;
 }
 .color_header {
-    background-color: rgb(1, 1, 78);
+  background-color: rgb(2, 2, 112);
+  justify-content: left;
 }
 .tamaño_logo_header {
-    width: 65px;
+  width: 65px;
+}
+.welcome {
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 600px;
+}
+.color_header_font {
+  color: aliceblue;
+}
+.color_footer_font {
+  color: aliceblue;
+}
+.font_size_footer {
+  font-size: medium;
+  align-items: center;
+}
+.center {
+  justify-content: center;
+}
+button {
+  background-color: rgb(207, 212, 216);
+  color: rgb(7, 5, 117);
+  border-style: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.barra {
+  color: #ccc;
+  margin: 0 10px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 60px;
+}
+.button_footer {
+  height: 80px;
+}
+ul {
+  align-items: center;
 }
